@@ -1,0 +1,16 @@
+﻿<Page
+    x:Class="CalibrationApp.TopRIght"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:CalibrationApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource SystemControlAccentDark2AcrylicElementAccentDark2MediumHighBrush}">
+
+    <Grid>
+        <TextBlock x:Name="Instructions" Text="Touch the Top Right Corner" HorizontalAlignment="Center" VerticalAlignment="Center" Style="{StaticResource TitleTextBlockStyle}" />
+        <RadioButton IsTapEnabled="True"  HorizontalAlignment="Right" Margin="-85,10" VerticalAlignment="Top"
+                         Checked="TopRight_Checked" />
+    </Grid>
+</Page>

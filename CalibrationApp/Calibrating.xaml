@@ -1,0 +1,15 @@
+﻿<Page
+    x:Class="CalibrationApp.Calibrating"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:CalibrationApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource SystemControlAccentDark2AcrylicElementAccentDark2MediumHighBrush}">
+
+    <Grid>
+        <TextBlock HorizontalAlignment="Center" Text="Done!" VerticalAlignment="Center" Style="{StaticResource TitleTextBlockStyle}"/>
+
+    </Grid>
+</Page>
